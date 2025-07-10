@@ -134,11 +134,8 @@ const Home = (props) => {
           </Fragment>
         }
         rootClassName="heroroot-class-name"
-      ></Hero>
-      <div id="contact">
-        <Contact />
-      </div>
-      <Footer></Footer>
+      ></Hero>  
+        <Footer />
     </div>
   );
 };
