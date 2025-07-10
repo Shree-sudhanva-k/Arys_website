@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './navbar.css'
+import "./navbar.css";
 
 const Navbar = (props) => {
   return (
@@ -64,32 +64,33 @@ const Navbar = (props) => {
         </div>
       </header>
     </header>
-  )
-}
+  );
+};
 
 Navbar.defaultProps = {
-  link1: 'Home',
-  link5: 'Link5',
-  link2: 'About Us',
+  link1: "Home",
+  link2: "About Us",
+  link3: "Services",
+  link4: "Contact Us",
+  link5: "Link5",
   logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  action2: '#about',
-  logoAlt: 'EV Company Logo',
-  link3: 'Services',
-  action1: '#home',
-  link4: 'Contact Us',
-}
+    "https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original",
+  action2: "#about",
+  logoAlt: "EV Company Logo",
+
+  action1: "#home",
+};
 
 Navbar.propTypes = {
   link1: PropTypes.string,
-  link5: PropTypes.string,
   link2: PropTypes.string,
+  link3: PropTypes.string,
+  link4: PropTypes.string,
+  link5: PropTypes.string,
   logoSrc: PropTypes.string,
+  action1: PropTypes.string,
   action2: PropTypes.string,
   logoAlt: PropTypes.string,
-  link3: PropTypes.string,
-  action1: PropTypes.string,
-  link4: PropTypes.string,
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -13,9 +13,6 @@ const Home = (props) => {
   const history = useHistory();
   return (
     <div className="home-container1">
-      <Helmet>
-        <title>Arys Garage</title>
-      </Helmet>
       <header className="home-container2">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
@@ -39,10 +36,20 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container3">
-            <button type="button" className="button">
+            <button
+              type="button"
+              className="btn btn-outline-light"
+              onClick={() =>
+                (window.location.href =
+                  "https://wellfound.com/company/arys-garage")
+              }
+            >
               Careers
             </button>
-            <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
+            {/* <button type="button" className="button">
+              Careers
+            </button> */}
+            {/* <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div> */}
           </div>
           {/* <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon1">
@@ -125,7 +132,9 @@ const Home = (props) => {
         }
         rootClassName="heroroot-class-name"
       ></Hero>
-      <Contact></Contact>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer></Footer>
     </div>
   );
