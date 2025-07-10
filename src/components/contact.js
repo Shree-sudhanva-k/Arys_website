@@ -65,16 +65,12 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
-  content2: 'You can also follow us on social media for updates and news.',
   email1: 'info@evcompany.com',
-  address1: '123 Main Street, City, Country',
-  content3: 'Stay tuned for exciting announcements!',
+  address1: '235, Binnamangala, 2nd Floor, 13th Cross Road, 2nd Stage, Indira Nagar, Bengaluru - 560038',
   content1:
     "We'd love to hear from you. Reach out to us for any inquiries or feedback.",
-  content4: 'Sign up for our newsletter to receive the latest updates.',
   heading1: 'Contact Us',
-  content5: '© 2022 EV Company. All rights reserved.',
-  phone1: '+1-123-456-7890',
+  phone1: '+91 7899216404',
 }
 
 Contact.propTypes = {
