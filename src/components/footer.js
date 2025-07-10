@@ -7,7 +7,7 @@ import "./footer.css";
 const Footer = (props) => {
   return (
     <footer className="footer-footer1 thq-section-padding">
-      <div className="thq-divider-horizontal mb-5"></div>
+      <div className="thq-divider-horizontal mb-4"></div>
       <div className="footer-max-width thq-section-max-width">
         <div className="footer-content">
           <div className="footer-links">
@@ -20,7 +20,7 @@ const Footer = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                   </svg>
-                  <span className="thq-body-small">info@arysgarage.com</span>
+                  <span className="thq-body-small"><a href="mailto:info@arysgarage.com">info@arysgarage.com</a></span>
                 </div>
               </div>
               <div className="footer-footer-links2">
@@ -37,8 +37,9 @@ const Footer = (props) => {
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
                   <span className="thq-body-small">
-                    235, Binnamangala, 2nd Floor, 13th Cross Road, 2nd Stage,
+                    <a href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEIMzI0N2owajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KekkV_OLF647MbqBOm166zfs&daddr=235,+2nd+%26+3rd+Floor,+13th+Cross+Rd,+Indira+Nagar+II+Stage,+Hoysala+Nagar,+Indiranagar,+Bengaluru,+Karnataka+560038">235, Binnamangala, 2nd Floor, 13th Cross Road, 2nd Stage,
                     Indira Nagar, Bengaluru - 560038
+                    </a>
                   </span>
                 </div>
               </div>
