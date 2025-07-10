@@ -12,7 +12,7 @@ import logo from "../assets/logo_2.jpg";
 const Home = (props) => {
   const history = useHistory();
   return (
-    <div className="home-container1">
+    <div className="home-container1">      
       <header className="home-container2">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
@@ -32,7 +32,7 @@ const Home = (props) => {
                   "'Eurostile Extended', Eurostile, 'Arial Narrow', Arial, sans-serif",
               }}
             >
-              Arys Garage
+              Arys Automotive
             </span>
           </div>
           <div className="home-container3 d-flex flex-row mx-2">

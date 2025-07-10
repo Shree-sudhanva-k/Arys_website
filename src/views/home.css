@@ -4,6 +4,20 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  position: relative; /* Needed for pseudo-element positioning */
+  /* background removed */
+}
+
+.home-container1::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+  background: url('/logo_2.jpg') center center no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  opacity: 0.3; /* Adjust for desired transparency */
+  pointer-events: none;
 }
 
 .home-container2 {
@@ -11,7 +25,7 @@
   display: flex;
   position: relative;
   justify-content: center;
-  background-color: var(--dl-color-theme-neutral-light);
+  /* background-color: var(--dl-color-theme-neutral-light); */
 }
 
 .home-navbar-interactive {
