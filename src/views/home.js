@@ -31,7 +31,8 @@ const Home = (props) => {
                 fontWeight: "bold",
                 fontSize: "1.5rem",
                 color: "white",
-                fontFamily: "'Eurostile Extended', Eurostile, 'Arial Narrow', Arial, sans-serif",
+                fontFamily:
+                  "'Eurostile Extended', Eurostile, 'Arial Narrow', Arial, sans-serif",
               }}
             >
               Arys Garage
@@ -43,12 +44,12 @@ const Home = (props) => {
             </button>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
           </div>
-          <div data-thq="thq-burger-menu" className="home-burger-menu">
+          {/* <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon1">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
-          </div>
-          <div data-thq="thq-mobile-menu" className="home-mobile-menu">
+          </div> */}
+          {/* <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-nav">
               <div className="home-top">
                 <img
@@ -74,7 +75,7 @@ const Home = (props) => {
               <button className="thq-button-filled">Login</button>
               <button className="thq-button-outline">Register</button>
             </div>
-          </div>
+          </div> */}
         </header>
       </header>
       <Hero
@@ -82,22 +83,41 @@ const Home = (props) => {
         action1="Learn More"
         text={
           <Fragment>
-            <span className="home-text10" style={{ display: "block", textAlign: "left" }}>
+            <span
+              className="home-text10"
+              style={{ display: "block", textAlign: "left" }}
+            >
               <br className="home-text12" />
               <span className="home-text14">
-                At Arys , we believe the future of performance lives on two wheels — and it's electric.
+                At Arys , we believe the future of performance lives on two
+                wheels — and it's electric.
                 <br />
                 <br />
-                Born out of a passion for speed, design, and clean energy, Arys Garage is building India’s next generation of high-performance electric bikes. We're not here to make just another EV — we're here to redefine what a performance bike should feel like in the electric era.
+                Born out of a passion for speed, design, and clean energy, Arys
+                Garage is building India’s next generation of high-performance
+                electric bikes. We're not here to make just another EV — we're
+                here to redefine what a performance bike should feel like in the
+                electric era.
                 <br />
                 <br />
-                Every machine that rolls out of our garage is engineered for power, precision, and thrill. With cutting-edge battery systems, high-torque motors, and lightweight builds, our bikes are built for riders who demand more — more speed, more control, and more connection to the road, without the noise and emissions of traditional engines.
+                Every machine that rolls out of our garage is engineered for
+                power, precision, and thrill. With cutting-edge battery systems,
+                high-torque motors, and lightweight builds, our bikes are built
+                for riders who demand more — more speed, more control, and more
+                connection to the road, without the noise and emissions of
+                traditional engines.
                 <br />
                 <br />
-                We’re a team of engineers, designers, and riders who grew up loving combustion but chose to build a smarter, faster, cleaner future. At Arys Garage, the garage isn't just a place — it's a mindset. It’s where bold ideas meet brutal testing, and where raw performance is fine-tuned to perfection.
+                We’re a team of engineers, designers, and riders who grew up
+                loving combustion but chose to build a smarter, faster, cleaner
+                future. At Arys Garage, the garage isn't just a place — it's a
+                mindset. It’s where bold ideas meet brutal testing, and where
+                raw performance is fine-tuned to perfection.
                 <br />
                 <br />
-                Join us as we ride into the future — full throttle, fully electric.<br />
+                Join us as we ride into the future — full throttle, fully
+                electric.
+                <br />
                 <b>This is Arys Garage. Performance has a new pulse.</b>
               </span>
             </span>
