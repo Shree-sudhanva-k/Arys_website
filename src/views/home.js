@@ -35,10 +35,20 @@ const Home = (props) => {
               Arys Garage
             </span>
           </div>
-          <div className="home-container3">
+          <div className="home-container3 d-flex flex-row mx-2">
             <button
               type="button"
-              className="btn btn-outline-light"
+              className="btn btn-outline-danger mx-2 border-2"
+              onClick={() => {
+                const el = document.getElementById("contact");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Contact Us
+            </button>
+            <button
+              type="button"
+              className="btn btn-outline-light border-2"
               onClick={() =>
                 (window.location.href =
                   "https://wellfound.com/company/arys-garage")
@@ -85,46 +95,29 @@ const Home = (props) => {
           </div> */}
         </header>
       </header>
-      <Hero
-        heading1="Arys Garage"
-        action1="Learn More"
-        text={
-          <Fragment>
-            <span
-              className="home-text10"
-              style={{ display: "block", textAlign: "left" }}
-            >
-              <br className="home-text12" />
-              <span className="home-text14">
-                At Arys , we believe the future of performance lives on two
-                wheels — and it's electric.
-                <br />
-                <br />
-                Born out of a passion for speed, design, and clean energy, Arys
-                Garage is building India’s next generation of high-performance
-                electric bikes. We're not here to make just another EV — we're
-                here to redefine what a performance bike should feel like in the
-                electric era.
-                <br />
-                <br />
-                Every machine that rolls out of our garage is engineered for
-                power, precision, and thrill. With cutting-edge battery systems,
-                high-torque motors, and lightweight builds, our bikes are built
-                for riders who demand more — more speed, more control, and more
-                connection to the road, without the noise and emissions of
-                traditional engines.
-                <br />
-                <br />
-                Join us as we ride into the future — full throttle, fully
-                electric.
-                <br />
-                <b>This is Arys Garage. Performance has a new pulse.</b>
-              </span>
-            </span>
-          </Fragment>
-        }
-        rootClassName="heroroot-class-name"
-      ></Hero>
+      {/* Main description section */}
+      <span className="home-description">
+        At Arys, we believe the future of performance lives on two wheels — and
+        it's electric.
+        <br />
+        <br />
+        Born out of a passion for speed, design, and clean energy, Arys Garage
+        is building India’s next generation of high-performance electric bikes.
+        We're not here to make just another EV — we're here to redefine what a
+        performance bike should feel like in the electric era.
+        <br />
+        <br />
+        Every machine that rolls out of our garage is engineered for power,
+        precision, and thrill. With cutting-edge battery systems, high-torque
+        motors, and lightweight builds, our bikes are built for riders who
+        demand more — more speed, more control, and more connection to the road,
+        without the noise and emissions of traditional engines.
+        <br />
+        <br />
+        Join us as we ride into the future — full throttle, fully electric.
+        <br />
+        <b>This is Arys Garage. Performance has a new pulse.</b>
+      </span>
       <div id="contact">
         <Contact />
       </div>

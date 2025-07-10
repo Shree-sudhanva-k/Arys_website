@@ -25,17 +25,7 @@ const Hero = (props) => {
             )}
           </p>
         </div>
-        <div className="hero-actions">
-          <button
-            className="thq-button-outline hero-button"
-            onClick={() => {
-              const el = document.getElementById("contact");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            <span className="thq-body-small">Contact Us</span>
-          </button>
-        </div>
+        <div className="hero-actions"></div>
       </div>
       <div className="hero-content2">
         <div className="hero-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
