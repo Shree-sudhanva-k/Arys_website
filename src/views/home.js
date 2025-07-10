@@ -20,7 +20,7 @@ const Home = (props) => {
               alt="Logo"
               src={logo}
               className="home-image1"
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", height: "70px", width: "auto"  }}
               onClick={() => history.replace(window.location.pathname)}
             />
             <span
