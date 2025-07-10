@@ -8,7 +8,10 @@ import "./hero.css";
 const Hero = (props) => {
   return (
     <div className={`hero-header78 ${props.rootClassName} `}>
-      <div className="hero-column thq-section-padding thq-section-max-width">
+      <div
+        className="hero-column thq-section-padding thq-section-max-width"
+        style={{ paddingTop: "0px" }} // adjust value as needed
+      >
         <div className="hero-content1">
           <p className="hero-text1 thq-body-large">
             {props.text ?? (

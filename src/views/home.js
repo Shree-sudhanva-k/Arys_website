@@ -115,13 +115,6 @@ const Home = (props) => {
                 traditional engines.
                 <br />
                 <br />
-                We’re a team of engineers, designers, and riders who grew up
-                loving combustion but chose to build a smarter, faster, cleaner
-                future. At Arys Garage, the garage isn't just a place — it's a
-                mindset. It’s where bold ideas meet brutal testing, and where
-                raw performance is fine-tuned to perfection.
-                <br />
-                <br />
                 Join us as we ride into the future — full throttle, fully
                 electric.
                 <br />
